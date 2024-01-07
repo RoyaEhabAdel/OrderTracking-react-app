@@ -1,0 +1,32 @@
+.search{
+    border: 1px solid rgb(201, 200, 200);
+    border-radius: 10px;
+    width: 240px;
+    text-align: right;
+    padding: 10px 20px 20px 10px;
+    color: gray;
+    position: relative;
+    left: 90px;
+}
+.search div form{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.search div input{
+    text-align: right;
+    font-size: 16px;
+    font-weight: 520;
+    border: 1px solid gray;
+    border-radius: 0 10px 10px 0;
+    padding: 5px;
+    width: 180px;
+}
+.search div .submit{
+    border: none;
+    padding:5px 10px;
+    background-color: rgb(207, 4, 4);
+    color: white;
+    border-radius: 10px 0 0 10px;
+    width: 40px;
+    cursor: pointer;
+}

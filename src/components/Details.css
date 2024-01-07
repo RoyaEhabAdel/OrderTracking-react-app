@@ -1,0 +1,90 @@
+.details{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin: 10px 100px;
+}
+.details-table{
+    text-align: right;
+    width: 50%;
+    padding: 10px;
+}
+.details-table table{
+    width: 100%;
+    text-align: right;
+}
+.details-table table tbody tr,
+.details-table table thead {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    text-align: right;
+    border: 1px solid rgb(197, 197, 197);
+    padding: 10px;
+}
+.details-table table thead{
+    background-color: rgb(240, 238, 238);
+    color: rgb(109, 109, 109);
+    font-weight: 500;
+}
+.details-table table tbody tr .mainData{
+    display: flex;
+    flex-direction: row;
+}
+.details-table table thead td{
+    width: 130px;
+}
+.details-table table tbody tr td{
+    text-align: right;
+    width: 130px;
+}
+.details-table table tbody tr td p{
+    color: rgb(182, 3, 3);
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.address-details{
+    text-align: right;
+    width: 40%;
+    padding: 10px; 
+}
+.address-details .address{
+    padding: 0 10px 10px 0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(235, 234, 234);
+    background-color: rgb(243, 241, 241);
+}
+.address-details .problem{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid rgb(224, 223, 223);
+    border-radius: 10px;
+    width: 450px;
+}
+.address-details .problem .subProblem{
+    padding: 10px;
+}
+.address-details button{
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: rgb(204, 3, 3);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+img{
+    width: 120px;
+    height: 100px;
+    margin-right: -100px;
+}
+
+@media  (max-width: 600px){
+    .details{
+        width: 400px;
+    }
+}

@@ -1,0 +1,69 @@
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 100%;
+    background-color: rgb(250, 246, 246);
+    border-bottom: 1px solid rgb(204, 202, 202);
+}
+img{
+    width: 120px;
+    height: 70px;
+    padding: 10px 140px 10px 20px;
+}
+.Nav ul{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    background-color: rgb(250, 246, 246);
+}
+.Nav ul li{
+    padding: 20px 3px ;
+    font-weight: 600;
+    font-size: 18px;
+}
+.Nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.Nav .btns{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-left: 60px;
+}
+.Nav button{
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    margin: 35px 10px 0 20px;
+    height: 30px;
+    cursor: pointer;
+    background-color: rgb(250, 246, 246);
+}
+.Nav .uniqueBtn{
+    color: red;
+}
+
+
+@media screen and (max-width: 600px){
+    .Nav{
+        width: 300px;
+        margin-left: 70px;
+        flex-direction: column;
+        padding-bottom: 25px;
+    }
+    img{
+        width: 50px;
+        margin-left: 70px;
+    }
+    .Nav ul{
+        width:250px;
+    }
+    .Nav .btns{
+        margin-right: 30px;
+    }
+    
+}
